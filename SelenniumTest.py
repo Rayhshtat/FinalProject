@@ -8,3 +8,4 @@ driver.implicitly_wait(10)
 driver.get(web_site)
 print(driver.find_element_by_xpath('//body[contains(text(), "I have been seen")]').text)
 driver.quit()
+
